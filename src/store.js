@@ -8,7 +8,7 @@ export default new Vuex.Store({
   state: {  //当前数据状态 类似 data
     adminName:'',   //当前登录管理员名字
     globalSettings:{  //项目全局设置信息
-      apiUrl:'http://127.0.0.1:8090/'  //初始默认值
+      apiUrl:'http://127.0.0.1:8090'  //初始默认值
     }
   },
   //公共数据修改 this.$store.commit('setAdminName','boos')
